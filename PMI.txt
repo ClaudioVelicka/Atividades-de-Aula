@@ -1,0 +1,249 @@
+Sub Ex_02()
+
+Dim salario As Double
+Dim nsalario As Double
+
+salario = InputBox("Informe o valor do salario: ")
+
+nsalario = salario * 1.15
+
+MsgBox ("O salario atual é: " & nsalario)
+End Sub
+Sub Ex_03()
+
+Dim b As Double
+Dim H As Double
+Dim area As Double
+
+b = InputBox("Informe o valor da base: ")
+H = InputBox("Informe o valor da altura: ")
+
+area = (b * H) / 2
+
+MsgBox ("A área é: " & area)
+
+
+End Sub
+Sub Ex_04()
+
+Dim c As Double
+Dim f As Double
+
+
+c = InputBox("Informe qual a temperatura em ºC: ")
+
+
+f = (9 * c + 160) / 5
+
+MsgBox ("A temperatura em ºF é: " & f)
+
+End Sub
+Sub Ex_05()
+    
+    
+Dim a As Double
+Dim b As Double
+Dim c As Double
+Dim x2 As Double
+Dim x1 As Double
+
+a = InputBox("Informe o valor de A: ")
+b = InputBox("Informe o valor de B: ")
+c = InputBox("Informe o valor de C: ")
+
+x1 = (-b + Sqr(b * b - 4 * a * c)) / (2 * a)
+x2 = (-b - Sqr(b * b - 4 * a * c)) / (2 * a)
+
+MsgBox ("Os valores das raízes são " & x1 & " e " & x2)
+    
+
+End Sub
+Sub Ex_06()
+
+Dim x As Double
+Dim y As Double
+Dim aux As Double
+
+
+x = InputBox("Informe o valor de x: ")
+y = InputBox("Informe o valor de y: ")
+
+
+aux = x
+x = y
+y = aux
+
+MsgBox ("Os valores trocado são de x: " & x & " e y: " & y)
+
+
+End Sub
+Sub Ex_07()
+
+Dim x As Double
+Dim y As Double
+Dim z As Double
+Dim v As Double
+
+
+x = InputBox("Informe o valor do comprimento: ")
+y = InputBox("Informe o valor da altura: ")
+z = InputBox("Informe o valor da profundidade: ")
+
+v = x * y * z
+
+MsgBox ("O volume é " & v)
+
+
+End Sub
+Sub Ex_08()
+
+Dim poup As Double
+Dim poupmes As Double
+
+
+poup = InputBox("Informe o valor do depósito: ")
+
+poupmes = poup * 0.013 + poup
+
+MsgBox ("O valor após 1 mês é de " & poupmes)
+
+End Sub
+Sub Ex_09()
+
+Dim x As Integer
+Dim y As Integer
+Dim soma As Integer
+
+
+x = InputBox("Informe o valor do 1º número: ")
+y = InputBox("Informe o valor do 2º número: ")
+
+
+soma = x ^ 2 + y ^ 2
+
+
+MsgBox ("O valor da soma de seus quadrados é " & soma)
+
+
+End Sub
+Sub Ex_10()
+
+Dim x As Double
+Dim y As Double
+Dim dif As Double
+
+
+x = InputBox("Informe o valor do 1º número: ")
+y = InputBox("Informe o valor do 2º número: ")
+
+
+dif = x - y
+
+
+MsgBox ("A diferença entre eles de é " & dif)
+
+
+End Sub
+Sub Ex_11()
+
+Dim r As Double
+Dim c As Double
+
+
+r = InputBox("Informe o raio: ")
+
+c = 2 * r * 3.14
+
+
+MsgBox ("O comprimento da circunferência é " & c)
+
+
+End Sub
+Sub Ex_12()
+
+Dim anonasc As Integer
+Dim anoatual As Integer
+Dim idadeatual As Integer
+Dim idadefut As Integer
+
+anonasc = InputBox("Informe o ano de nascimento: ")
+anoatual = InputBox("Informe o ano atual: ")
+
+idadeatual = anoatual - anonasc
+idadefut = idadeatual + 17
+
+MsgBox ("Sua idade atual é de " & idadeatual & " anos e sua ideda daqui 17 anos será de " & idadefut & " anos.")
+
+End Sub
+Sub Ex_13()
+
+Dim kg As Double
+Dim dias As Double
+
+kg = InputBox("Informe a quantidade em quilos dos alimentos: ")
+
+dias = kg * 100 / 5
+
+MsgBox ("Os alimentos vão durar " & dias & " dias.")
+
+
+End Sub
+Sub Ex_14()
+
+Dim ang1 As Double
+Dim ang2 As Double
+Dim ang3 As Double
+
+ang1 = InputBox("Informe o valor do 1º ângulo: ")
+ang2 = InputBox("Informe o valor do 2º ângulo: ")
+
+ang3 = 180 - (ang1 + ang2)
+
+MsgBox ("O valor do 3º ângulo é de " & ang3 & " graus.")
+
+End Sub
+Sub Ex_15()
+
+Dim c1 As Double
+Dim c2 As Double
+Dim H As Double
+
+c1 = InputBox("Informe o valor do 1º cateto: ")
+c2 = InputBox("Informe o valor do 2º cateto: ")
+
+H = Sqr(c1 ^ 2 + c2 ^ 2)
+
+MsgBox ("O valor da hipotenusa é " & H)
+
+End Sub
+Sub Ex_16()
+
+Dim H As Double
+Dim valorH As Double
+Dim descendentes As Double
+Dim salaliq As Double
+Dim porcentual As Double
+
+H = InputBox("Informe a quantidade de horas trabalhadas: ")
+valorH = InputBox("Informe o valor por hora: ")
+descendentes = InputBox("Informe o número de descendentes: ")
+
+salaliq = (H * valorH) - (H * valorH * porcentual) + (100 * descendentes)
+
+MsgBox ("O salária será: " & salaliq)
+
+End Sub
+Sub Ex_17()
+
+Dim th As Double
+Dim vm As Double
+Dim l As Double
+
+th = InputBox("Informe o tempo de percurso: ")
+vm = InputBox("Informe a velocidade média: ")
+
+l = (th * vm) / 12
+
+MsgBox ("a quantidade de litros gastos é de " & l)
+
+End Sub
