@@ -1,0 +1,12 @@
+Sub Ex_01()
+
+Dim lado As Integer
+Dim area As Integer
+
+lado = InputBox("Informe o valor do lado: ")
+
+area = lado ^ 2
+
+MsgBox ("O valor da area é: " & area)
+
+End Sub
